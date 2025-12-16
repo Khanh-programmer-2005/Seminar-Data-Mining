@@ -1,2 +1,82 @@
-data/data-commerce.csv
-data/data-commerce-after.csv
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+env/
+.venv/
+
+# ===============================
+# Jupyter / Colab
+# ===============================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ===============================
+# Data files (không nên push)
+# ===============================
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# ===============================
+# Model files
+# ===============================
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ===============================
+# Logs & outputs
+# ===============================
+logs/
+*.log
+outputs/
+results/
+
+# ===============================
+# Experiment tracking
+# ===============================
+wandb/
+mlruns/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Secrets
+# ===============================
+.env
+*.key
+*.pem
+
+# ===============================
+# Temporary files
+# ===============================
+tmp/
+temp/
+*.tmp
+
+
+data/data-commerce-clean.csv
